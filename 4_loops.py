@@ -32,4 +32,17 @@ for i in range(1,11):
 for i in range(2,11,2):
     
     print(i)
-    
+
+
+# program of for loop of fabonacci series
+# Fibonacci series using for loop
+
+n = int(input("Enter the number of terms: "))
+a = 0
+b = 1
+print("Fibonacci Series:")
+for i in range(n):
+    print(a, end=" ")
+    c = a + b
+    a = b
+    b = c
